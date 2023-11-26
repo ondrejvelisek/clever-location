@@ -22,6 +22,7 @@ export default function Hero({ className }: { className?: string }) {
             </p>
 
             <div className="flex flex-wrap gap-2">
+                {/* @ts-ignore */}
                 <Button as={Link} size="xl" color="failure" href="/browse">Browse attributes</Button>
                 <Button size="xl" color="gray">How does it work?</Button>
             </div>

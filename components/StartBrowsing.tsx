@@ -28,6 +28,7 @@ export default function StartBrowsing() {
                 </div>
                 <div>
                     <div className="max-w-[360px] mx-auto">
+                        {/* @ts-ignore TS-2322 */}
                         <Button size="xl" color="failure" as={Link} href="/browse">Browse all attributes</Button>
                     </div>
                 </div>
