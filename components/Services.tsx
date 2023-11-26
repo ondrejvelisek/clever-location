@@ -4,9 +4,6 @@ import { Button, TextInput, Textarea } from 'flowbite-react';
 
 
 export default function Services() {
-
-    const result = useQuery(async () => fetch('/'), [])
-
     return (
         <>
             <H1>
