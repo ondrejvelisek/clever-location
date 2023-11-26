@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import { Card } from 'flowbite-react';
 import Link from 'next/link';
+import thumbnail from '../public/thumbnail.png'
+import Image from 'next/image'
 
 
 export default function AttributeCard({ className }: { className?: string }) {
@@ -9,7 +11,7 @@ export default function AttributeCard({ className }: { className?: string }) {
             className={clsx('min-w-[300px] justify-between', className)}
         >
             <div className="-m-6 pb-6">
-                <img src="/thumbnail.png" alt="Ilustrative image of attribute" />
+                <Image src={thumbnail} alt="Ilustrative image of attribute" />
             </div>
             <Link href="#">
                 <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">

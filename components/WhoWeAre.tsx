@@ -1,6 +1,6 @@
 import H1 from '@/ui/H1';
-import H2 from '@/ui/H2';
-import { Button, TextInput, Textarea } from 'flowbite-react';
+import team from '../public/Team.jpg'
+import Image from 'next/image'
 
 
 export default function WhoWeAre() {
@@ -19,7 +19,7 @@ export default function WhoWeAre() {
                     </p>
                 </div>
                 <div className="">
-                    <img src="/Team.jpg" alt="Photo of our core team members" />
+                    <Image src={team} alt="A team of CleverMaps" />
                 </div>
             </div>
         </>

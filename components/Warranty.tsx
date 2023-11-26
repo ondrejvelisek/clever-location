@@ -1,6 +1,6 @@
 import H1 from '@/ui/H1';
-import H2 from '@/ui/H2';
-import { Button, TextInput, Textarea } from 'flowbite-react';
+import umbrella from '../public/umbrella.png'
+import Image from 'next/image'
 
 
 export default function Warranty() {
@@ -29,7 +29,7 @@ export default function Warranty() {
                 </div>
                 <div className="flex-[50%]">
                     <div className="">
-                        <img src="/umbrella.png" className="h-64 sm:h-80" alt="Croissant picture representing cheap pricing" />
+                        <Image src={umbrella} className="h-64 sm:h-80" alt="Umbrella taking care of money" />
                     </div>
                 </div>
             </div>

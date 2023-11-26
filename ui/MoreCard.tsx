@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import { Card } from 'flowbite-react';
 import Link from 'next/link';
+import arrow from '../public/Arrow.png'
+import Image from 'next/image'
 
 
 export default function MoreCard({ className }: { className?: string }) {
@@ -9,7 +11,7 @@ export default function MoreCard({ className }: { className?: string }) {
             className={clsx('min-w-[300px] shadow-none justify-between', className)}
         >
             <div className="-m-6 pb-6">
-                <img src="/Arrow.png" alt="More items, arrow picture" />
+                <Image src={arrow} alt="More items, arrow picture" />
             </div>
             <Link href="#">
                 <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">

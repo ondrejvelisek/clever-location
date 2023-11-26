@@ -1,6 +1,6 @@
 import H1 from '@/ui/H1';
-import H2 from '@/ui/H2';
-import { Button, TextInput, Textarea } from 'flowbite-react';
+import globe from '../public/Globe.png'
+import Image from 'next/image';
 
 
 export default function Coverage() {
@@ -24,7 +24,7 @@ export default function Coverage() {
                 </div>
                 <div className="flex-[50%]">
                     <div className="sm:-mb-6 sm:-mt-24 ml-20">
-                        <img src="/Globe.png" className="h-64 sm:h-80" alt="Croissant picture representing cheap pricing" />
+                        <Image src={globe} className="h-64 sm:h-80" alt="Globe world image" />
                     </div>
                 </div>
             </div>

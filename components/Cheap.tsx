@@ -1,6 +1,6 @@
 import H1 from '@/ui/H1';
-import H2 from '@/ui/H2';
-import { Button, TextInput, Textarea } from 'flowbite-react';
+import croissant from '../public/croissant.png'
+import Image from 'next/image';
 
 
 export default function Cheap() {
@@ -22,7 +22,7 @@ export default function Cheap() {
                     </p>
                 </div>
                 <div className="flex-[50%] sm:-mb-10 sm:-mt-32">
-                    <img src="/croissant.png" className="h-64 sm:h-80" alt="Croissant picture representing cheap pricing" />
+                    <Image src={croissant} className="h-64 sm:h-80" alt="Croissant picture representing cheap pricing" />
                 </div>
             </div>
         </>
